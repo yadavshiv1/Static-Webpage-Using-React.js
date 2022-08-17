@@ -1,0 +1,261 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.hbtn{
+  font-family: Century, serif;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 50px;
+  height: 100px;
+  background-color: aqua;
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  z-index: 2 ;
+  box-shadow: 5px 8px ;
+
+}
+.hbtn:hover{
+  cursor: pointer;
+}
+
+/* Header Css */
+.content{
+  font-family: Century, serif;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 10px 10px 10px rgb(206, 206, 206);
+  border-radius: 10px;
+}
+.header{
+  background-color: rgb(61, 64, 84);
+  color: white;
+  
+}
+.header li{
+  display:inline-block ; 
+  padding: 10px;
+  padding-left: 20px;  
+  text-decoration: none;
+}
+
+.header li:nth-last-child(1) {
+  display: inline-flex;
+  float: right;
+  
+}
+.header li:nth-last-child(2) {
+  display: inline-flex;
+  float: right;
+  padding-left: 0px;
+  margin-right: 180px;
+  color: aqua;
+}
+
+.header li:nth-last-child(7) {
+  margin-left: 190px;
+}
+
+/* Navbar Css */
+
+.mainNavbar{
+  font-family: Century, serif;
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(146, 160, 160);
+  font-size: 25px;
+  box-shadow: 30px 30px 30px rgb(52, 48, 48);
+  border-radius: 10px;
+}
+.navbar{
+  margin: 0px 350px 0px 250px;
+  display: inline-flex;
+  padding-right: 15px;
+
+}
+
+.navbar li{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  /* border: 2px solid saddlebrown; */
+
+}
+
+.navbar img{
+  height: 100px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.navbar div {
+  padding-right:200px ;
+
+}
+
+
+.btn-nav{
+  font-family: Century, serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(87, 223, 214);
+  color: white;
+  border-radius: 30px;
+  height: 50px;
+  width: 130px;
+  opacity: 0.9;
+
+}
+
+.btn-nav:hover{
+  box-shadow: 13px 5px 10px rgb(91, 194, 194);
+}
+
+/* MainSection */
+
+.mainSection{
+  background-size: auto;
+  box-shadow:inset 0px 10px rgb(153, 156, 156);
+  border-radius: 20px;
+}
+img{
+  width:1440px;
+  opacity: 0.9;
+}
+
+
+/* section */
+
+.section{
+  display: inline-flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  background-color: rgb(153, 156, 156);
+  width: 1440px;
+
+}
+
+.s1{
+
+  padding: 38px 0px 20px 70px;
+  height: 250px;
+  width: 250px;
+  margin-left: 160px;
+  border-radius: 30px;
+  box-shadow: 10px 5px 10px 5px ;
+}
+
+.s2{
+  padding: 55px 0px 0px 100px;
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+  box-shadow: 10px 5px 10px 5px ;
+
+}
+
+.s3{
+  padding: 55px 0px 0px 100px;
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+  box-shadow: 10px 5px 10px 5px ;
+}
+
+.s4{
+  padding: 55px 0px 0px 100px;
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+  margin-right: 160px;
+  box-shadow: 10px 5px 10px 5px ;
+}
+
+.s1 img{
+  height: 100px;
+  width: 100px;
+}
+
+.s2 img{
+  height: 100px;
+  width: 100px;
+}
+
+.s3 img{
+  height: 100px;
+  width: 100px;
+}
+
+.s4 img{
+  height: 100px;
+  width: 100px;
+}
+
+
+  
+
+/* Contact */
+
+.form{
+
+  margin-top: 30px;
+  display:inline-flex;
+  flex-direction: column;
+  margin-left: 500px;
+  margin-right: 500px;
+
+}
+
+input{
+  padding-bottom: 20px;
+  border-radius: 30px;
+  margin: 10px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+input:hover{
+  
+}
+
+.contact{
+  display:inline-flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1440px;
+  background-color:rgb(153, 156, 156) ;
+  padding-bottom: 150px;
+}
+
+.contact h1{
+  
+  padding: 20px 100px 20px 600px;
+  border-radius: 30px ;
+  background-color: white;
+  color: black;
+}
+
+.contact button{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 30px;
+  background-color: aqua;
+  color: white;
+  border-radius: 30px;
+  height: 50px;
+  width: 300px;
+}
+
+.contact button:hover{
+  box-shadow: 10px 10px rgb(139, 141, 146);
+  cursor: pointer;
+}
